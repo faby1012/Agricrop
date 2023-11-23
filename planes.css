@@ -1,0 +1,68 @@
+
+.contenido,
+.contenido1,
+.contenido2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+  font-family: 'Poppins';
+  margin-top: 0px;
+
+}
+
+.contenido h1 {
+  font-size: 32px;
+  font-family: 'Poppins';
+  font-weight: bold;
+  color:#155931;
+ 
+}
+
+.plan {
+  text-align: center;
+  width: 200px; 
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #69A86D; 
+  background-color: #69A86D;
+  border-radius: 10px;
+}
+
+.plan h2 {
+  color: #155301;
+}
+
+.precio {
+  font-weight: bold;
+  color: #155931;
+}
+
+.texto,
+.textoPremium {
+  color: #155931;
+  font-weight: bold;
+}
+
+.boton {
+  text-align: center;
+}
+
+a.obtenerGratuito,
+a.obtenerPremium {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #155931;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px; /* Espaciado entre el texto y el botón */
+}
+
+a.obtenerGratuito:hover,
+a.obtenerPremium:hover {
+  background-color: #AFD3AA;
+  
+}
+
+

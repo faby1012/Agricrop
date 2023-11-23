@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Agricrop </title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=InknutAntiqua">
+    <link rel="icon" href="imagenes/logito.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  </head>
+
+  <body>
+    <!-- Encabezado -->
+    <div class = "header">
+      <!-- Logo -->
+      <div class = "logo">
+        <a href = "index.html"><img src="imagenes/logo.PNG" alt="logo"></a>
+      </div>
+
+      <!-- Navegación -->
+      <nav class="navbar">  
+        <a href="index.html"> INICIO </a> 
+        <a href="app.html"> APP </a>
+        <a href="planes.html"> PLANES </a>
+        <a href="contacto.html"> CONTACTO </a>
+        <a href="nosotros.html"> NOSOTROS </a>        
+      </nav>
+      <div class="lineaVerde"></div>
+    
+      <!-- POP UP 1-->
+      <div class="modal-container" id="modal">
+        <div class="modal-content">
+          <span class="close" onclick="cerrarGuia()">&times;</span>
+          <p>Guia Android: 
+            <div><iframe width="560" height="315" src="https://www.youtube.com/embed/HnL5XzzkQVw?si=PQ6A-sssHK_gBtiu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+          </p>
+          <p>Guia iOS: 
+          <!-- VIDEO IOS FALTA COLOCAR -->
+            <div><iframe width="560" height="315" src="https://www.youtube.com/embed/HnL5XzzkQVw?si=PQ6A-sssHK_gBtiu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+          </p>
+        </div>
+      </div>
+      <!-- POP UP 2-->
+      <div class="modal-container" id="modal3">
+        <div class="modal-content">
+          <span class="close" onclick="cerrarOpinion()">&times;</span>
+          <div class="opiniones-container"> 
+            <h2>Opiniones sobre la Aplicación</h2>
+            <div class="opinion">
+              <div class="usuario">Juan Pérez</div>
+              <div class="calificacion">⭐⭐⭐⭐⭐</div>
+              <p class="comentario">Esta aplicación ha sido una herramienta invaluable para mejorar mis prácticas agrícolas. ¡Altamente recomendada!</p>
+            </div>
+            
+            <div class="opinion">
+              <div class="usuario">María López</div>
+              <div class="calificacion">⭐⭐⭐⭐</div>
+              <p class="comentario">Me gusta la interfaz fácil de usar. Sin embargo, me gustaría ver más funciones específicas para los cultivos de la región andina.</p>
+            </div>
+            
+            <div class="opinion">
+              <div class="usuario">Pedro Huamaní</div>
+              <div class="calificacion">⭐⭐⭐⭐⭐⭐</div>
+              <p class="comentario">Increíble aplicación que ha transformado la manera en que gestiono mi finca. Mis rendimientos han mejorado significativamente.</p>
+            </div>
+
+            <div class="opinion">
+              <div class="usuario">Pedro Huamaní</div>
+              <div class="calificacion">⭐⭐⭐⭐⭐</div>
+              <p class="comentario">La plicación me ayudo con mis cultivo de manera increible.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- POP UP 3-->
+      <div class="modal-container" id="modal2">
+        <div class="modal-content">
+          <span class="close" onclick="cerrarCatal()">&times;</span>
+          <img src="imagenes/CATAL.jpeg" alt="CATAL"> <div><h1> Entre otros...</h1></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contenido - inicio - panel-->
+    <div class="panel">
+      <div class = "panel-imagen">
+        <img class="imagenpanel" src="imagenes/imagen2.PNG" alt="panel">
+      </div>
+    </div>
+
+    <!-- Contenido - inicio -->
+    <div class="content">
+    
+      <!-- Botones -->
+      <div class="boton">
+        <!-- Guia -->
+        <a onclick="abrirGuia()"><img src="imagenes/guia.png" alt="Guias"> Guias </a>
+        <script src="script2.js"></script>
+        <!-- Opinion -->
+        <a onclick="abrirOpinion()"><img src="imagenes/opinion.png" alt="Opinion"> Opinion </a>
+        <!-- Catalogo -->
+        <a onclick="abrirCatal()"><img src="imagenes/catalogo.png" alt="Catalogo"> Catalogos </a>
+        
+        <div class="texto">
+          <p> Ayudamos a los agricultores y personas
+            interesadas en la agricultura para obtener una 
+            cosecha optima y beneficiosa.
+              <a class="obtenerGratuito" href="planes.html">Suscríbete</a>
+
+          </p>
+        </div>
+       
+      </div>
+
+      
+
+      
+      
+    </div>
+    
+
+    <footer class="footer">
+      <div class="footer-content">
+        Visitanos
+        <a target="_blank" href="https://www.instagram.com/"><img src="imagenes/instagram-icon.png" alt="Instagram icon" width="30" height="30"></a>
+        <a target="_blank" href="https://www.facebook.com/"><img src="imagenes/facebook-icon.png" alt="Facebook icon" width="30" height="30"></a>
+        <a target="_blank" href="https://www.linkedin.com/"><img src="imagenes/linkedin-icon.png" alt="LinkedIn icon" width="30" height="30"></a>
+        <img target="_blank" src="imagenes/whatsapp-icon.png" alt="WhatsApp icon" width="30" height="30" style="position: absolute; bottom: 0; right: 10px; top: 10px;"></a>
+      </div>
+    </footer>  
+
+  </body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

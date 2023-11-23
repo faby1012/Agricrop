@@ -1,0 +1,40 @@
+
+.body{
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+/*  background: url('imagenes/cultivos-sanos-agricultura-sostenible.jpeg') center center no-repeat;
+  background-size: cover;  */
+}
+
+.info {
+    text-align: center;
+    width: 50%; 
+    height: 100%;
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .contenido1, 
+  .contenido2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-size: 140%;
+    text-align: center;
+
+    margin-top: 10px;
+  }
+
+  .boton {
+    margin-top:10%;
+    text-align: center;
+  }

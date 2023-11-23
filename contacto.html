@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  </head>
+
+
+  <body>
+  <!-- Encabezado -->
+  <div class = "header">
+    <div class = "logo">
+      <a href = "index.html"><img src="imagenes/logo.PNG" alt="logo"></a>
+    </div>
+  
+    <!-- Navegación -->
+    <nav class="navbar">  
+      <a href="index.html"> INICIO </a> 
+      <a href="app.html"> APP </a>
+      <a href="planes.html"> PLANES </a>
+      <a href="contacto.html"> CONTACTO </a>
+      <a href="nosotros.html"> NOSOTROS </a>        
+    </nav>
+    <div class="lineaVerde"></div> 
+  </div>
+
+    <!-- Contenido contacto -->
+    <div class = "container"> 
+
+      <!-- Botones de contacto -->
+      <div class="botones">
+        <div class="boton">
+          <!-- Correo -->
+          <a href="mailto:agricrop05@gmail.com"><img src="imagenes/correo.svg" alt="Correo">
+            agricrop05@gmail.com
+          </a>
+          <!-- Telefono -->
+          <a href="tel:998874297"><img src="imagenes/telefono.png" alt="telefono" class="boton">
+            +51 998874297
+          </a>
+        </div>
+      </div>
+
+      <!-- formulario de contacto -->
+      <div class="formulario">
+        <!-- ... contenido del formulario -->
+        <form action="procesar_formulario.php" method="post">
+          <h1 text-align: center > Contacto </h1>
+          <!-- Campo Nombre -->
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+          <!-- Campo Apellido -->
+          <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+          <!-- Campo Correo Electrónico -->
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <!-- Campo Mensaje -->
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
+          <!-- Botón de Enviar -->
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    
+    <footer class="footer">
+      <div class="footer-content">
+        Visitanos
+        <a target="_blank" href="https://www.instagram.com/"><img src="imagenes/instagram-icon.png" alt="Instagram icon" width="30" height="30"></a>
+        <a target="_blank" href="https://www.facebook.com/"><img src="imagenes/facebook-icon.png" alt="Facebook icon" width="30" height="30"></a>
+        <a target="_blank" href="https://www.linkedin.com/"><img src="imagenes/linkedin-icon.png" alt="LinkedIn icon" width="30" height="30"></a>
+        <img target="_blank" src="imagenes/whatsapp-icon.png" alt="WhatsApp icon" width="30" height="30" style="position: absolute; bottom: 0; right: 10px; top: 10px;"></a>
+      </div>
+    </footer> 
+  
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.contenedor {
+    text-align: center;
+    margin-top: 40px; 
+}
+.logo {
+    display: block;
+    margin: auto;
+
+}
+.imagen-primaria {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 100px; 
+    width: 210px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-left: 10px; 
+    width: 200px; 
+}
+
+
+.imagen-secundaria {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px; 
+    width: 200px;
+}
+
+
+.texto-en-negrita {
+    font-weight: bold;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.boton-descargar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #155931; 
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 7px; 
+    margin-top: 20px; 
+}
